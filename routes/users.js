@@ -3,4 +3,4 @@ const userController =require("../controller/users");
 
 router.post('/create', userController.userCreate);
 
-module.exports = router;asdadasgdagf
+module.exports = router;
