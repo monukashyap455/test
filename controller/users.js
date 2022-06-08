@@ -11,7 +11,7 @@ exports.userCreate = async (req, res) => {
             password
         })
 
-        await userData.save();
+        await userData.save()
         res.status(200).json({
             Message: "success",
             Result: userData
